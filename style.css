@@ -70,9 +70,9 @@ h2 {
  /*Equipo*/
   
  .contenedor__equipo__galeria{
-  /* width: 100%;
+    width: 100%;
     height: 100%;
-    object-fit: cover;*/
+    object-fit: cover;
     display: flex;
     flex-direction:row-reverse;
     justify-content:space-evenly;
@@ -210,9 +210,7 @@ h2 {
   
  } */
   
- /*tranformaciones, transiciones o animaciones*/
- .header__menu__link:hover{
-  background-color: #002C54;
- }
+
+ 
   
  

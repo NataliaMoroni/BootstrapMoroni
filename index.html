@@ -48,7 +48,7 @@
     <br>
     <br>
 
-       <!--Home-->
+    <!--Home-->
      <section class="container-fluid">
         <div class="row">
           <div class="col-lg-9 col-md-7 col-sm-12 d-sm-none d-md-block">
@@ -74,7 +74,7 @@
               </button>
           </div>
           </div>
-       <!--home reseña-->
+    <!--home reseña-->
           <div class="col-lg-3 col-md-5 col-sm-12 contenedor__home2">  
             <br>
             <h1 >Peugeot, Citroen y DS</h1> 
@@ -102,32 +102,31 @@
         <p class="contenedor__equipo__parrafo"> Somos un taller especializado en Peugeot, Citroen y DS. Nos capacitamos constantemente para poder brindarles el mejor servicio.
         </p>
         <br>
-         <div class="contenedor__equipo__galeria">
+        <div class="contenedor__equipo__galeria">
    
           <img src="./multimedia/imagenes/mecanico1.webp" alt="imagen de grupo de trabajo" class="equipo__galeria__imagen d-sm-none d-md-block d-none d-sm-block">
   
           <img src="./multimedia/imagenes/mecanico2.webp" alt="imagen de grupo de trabajo" class="equipo__galeria__imagen">
   
           <img src="./multimedia/imagenes/mecanico3.webp" alt="imagen de grupo de trabajo" class="equipo__galeria__imagen d-sm-none d-md-block d-none d-sm-block">
-         
-         </div>
+      
         </div>
       </div>
     </section>
   
 <br>
 <br>
-
+    <!--Serviocios-->
      <section class="container-fluid">
-      <div class="row"><!--Serviocios-->
-        <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 contenedor__serviocios">
           
             <p id="funcion"></p>
             <h2 >Algunos de los servicios</h2> 
          <br>
          <br>
          
-            <ul class="servicios__lista">
+            <ul class="contenedor__servicios__lista">
                <li class="servicios__lista__item">Diagnóstico y reparación de vehículos Peugeot, Citroen y DS</li>
                <br>
                <li class="servicios__lista__item">Mantenimiento</li>
@@ -156,16 +155,17 @@
             </ul>
 
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12"> <!--contacto-->
+    <!--contacto-->
+        <div class="col-lg-6 col-md-6 col-sm-12 contenedor__contacto"> 
           <p id="contacto">
           </p>
           <h2>Encontranos</h2> 
           <br>
           <br>
           
-          <ul class="contenedor__info">
-              <li><img src="/multimedia/imagenes/mapa.png" alt="ubicacion" class="info__ubicacion"> Av. Carcano 1363 - Villa Carlos Paz</li>
-              <li><img src="/multimedia/imagenes/telefono-color.png" alt="telefono" class="info__ubicacion"> +54 9 3541 65 2016</li>
+          <ul class="contenedor__contacto__info">
+              <li><img src="/multimedia/imagenes/mapa.png" alt="ubicacion" class="contacto__info__ubicacion"> Av. Carcano 1363 - Villa Carlos Paz</li>
+              <li><img src="/multimedia/imagenes/telefono-color.png" alt="telefono" class="contacto__info__ubicacion"> +54 9 3541 65 2016</li>
           </ul>
           
           <div>
@@ -224,18 +224,17 @@
       <!--Footer-->
      <section class="container-fluid">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <footer class="footer">
-   
-            <nav class="piedepagina">
-                <ul class="piedepagina__lista">
+        <div class="col-lg-12 col-md-12 col-sm-12 contenedor__footer">
+          <footer>
+            <nav class="contenedor__piedepagina">
+                <ul class="contenedor__piedepagina__lista">
                     <li>
-                        <img src="./multimedia/imagenes/facebook.png" alt="facebook" class="piedepagina__lista__imagen">
-                        <a href="https://www.facebook.com/" target="_blank" class="piedepagina__lista__link"> /i+dea.taller</a>
+                        <img src="./multimedia/imagenes/facebook.png" alt="facebook" class="contenedor__piedepagina__lista__imagen">
+                        <a href="https://www.facebook.com/" target="_blank" class="contenedor__piedepagina__lista__link"> /i+dea.taller</a>
                     </li>
                     <li>
-                        <img src="./multimedia/imagenes/instagram.png" alt="instagram" class="piedepagina__lista__imagen">
-                        <a href="https://www.instagram.com " target="_blank" class="piedepagina__lista__link">@i+dea.taller</a>
+                        <img src="./multimedia/imagenes/instagram.png" alt="instagram" class="contenedor__piedepagina__lista__imagen">
+                        <a href="https://www.instagram.com " target="_blank" class="contenedor__piedepagina__lista__link">@i+dea.taller</a>
                     </li>
                 </ul>
             </nav>
@@ -245,9 +244,13 @@
       </div>
     </section>
   
-
-
-
+  <!--animacion AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+ 
+<!--js-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
              
 </body>

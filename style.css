@@ -11,6 +11,23 @@ body {
     background-color: #002C54 ;
 }
 
+h1 {
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+   text-align: center;
+   font-size: 23px;
+   font-weight: bold;
+}
+
+h2 {
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+   text-align: center;
+   font-size: 23px;
+   font-weight: bold;
+}
+
+/*header*/
 
 .contenedor__header__logo{
    font-family: 'PT Serif', serif;
@@ -51,18 +68,11 @@ body {
 
   
  /*Equipo*/
- h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 23px;
-    font-weight: bold;
- }
   
  .contenedor__equipo__galeria{
-    width: 100%;
+  /* width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;*/
     display: flex;
     flex-direction:row-reverse;
     justify-content:space-evenly;
@@ -85,15 +95,8 @@ body {
  }
  
  /*Servicios*/
-h1 {
-   font-family: 'Open Sans', sans-serif;
-   color: white;
-   text-align: center;
-   font-size: 23px;
-   font-weight: bold;
-}
- 
-.servicios__lista{
+
+.contenedor__servicios__lista{
   font-family: 'Open Sans', sans-serif;
   color:white;
   text-align:left;
@@ -104,12 +107,8 @@ h1 {
 }
   
  /*Contacto*/
- .contenedor__contacto{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
- .contenedor__info {
+ 
+ .contenedor__contacto__info {
    font-family: 'Open Sans', sans-serif;
    color:white;
    text-align:center;
@@ -118,13 +117,14 @@ h1 {
   
  }
   
- .info__ubicacion {
+ .contacto__info__ubicacion {
     width: 30px;
  }
  .contenedor__formulario{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
  }
  .formulario{
     display:flex;
@@ -138,13 +138,7 @@ h1 {
     align-items: center;
  }
   
- .formulario{
-    border-style: dashed ;
-    border-radius: 6px;
-    width: 50%;
-  
-  
- }
+
  .formulario__leyenda{
     text-align: center;
    
@@ -168,15 +162,9 @@ h1 {
     height: 5vh;
   
  }
-  .footer{
-    /*display: flex;*/
-    width: 100%;
-    /*justify-content:space-between;*/
-    padding: 10px 0px;
-       
- }
   
-  .piedepagina__lista{
+/*footer*/
+  .contenedor__piedepagina__lista{
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -186,10 +174,11 @@ h1 {
     padding: 1em;
  }
   
- .piedepagina__lista__imagen{
-    width: 30px;
+ .contenedor__piedepagina__lista__imagen{
+    width: 2rem;
  }
- .piedepagina__lista__link{
+
+ .contenedor__piedepagina__lista__link{
     color:#fff;
     text-decoration: none;
  }
